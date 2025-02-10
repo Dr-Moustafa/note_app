@@ -12,6 +12,7 @@ class RunApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData.dark(),
       routes: {
         HomeView.id: (context) => HomeView(),
       },
